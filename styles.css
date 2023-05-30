@@ -63,7 +63,7 @@ body {
     font-family: pokemon-one;
     color: #ffcc00;
     -webkit-text-stroke: 3px var(--pokemonBlue);
-    font-size: 5vh;
+    font-size: 4vh;
 }
   
 #pokemon-name {
@@ -98,7 +98,7 @@ button {
     outline: none;
     border: 0;
     vertical-align: middle;
-    font-size: 4vh;
+    font-size: 3vh;
     text-transform: capitalize;
     font-family: pokemon-one;
     color: #ffcc00;
