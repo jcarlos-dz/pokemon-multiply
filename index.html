@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Who's that Pokémon?</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div>
+        <span id="question"></span>
+      </div>
+
+      <div class="body-container">
+        <img id="sprite" />
+      </div>
+
+      <div id="progress-bar" class="progress-bar">
+        <div id="progress" class="progress"></div>
+      </div>
+
+      <div class="options-container">
+        <button
+          id="guess0"
+          class="big-button"
+          data-id="0"
+          onclick="checkGuess(this)"
+        ></button>
+        <button
+          id="guess1"
+          class="big-button"
+          data-id="1"
+          onclick="checkGuess(this)"
+        ></button>
+        <button
+          id="guess2"
+          class="big-button"
+          data-id="2"
+          onclick="checkGuess(this)"
+        ></button>
+        <button
+          id="guess3"
+          class="big-button"
+          data-id="3"
+          onclick="checkGuess(this)"
+        ></button>
+        <button
+          id="guess4"
+          class="big-button"
+          data-id="4"
+          onclick="checkGuess(this)"
+        ></button>
+      </div>
+
+      <div class="message">
+        <span id="message-text"></span>
+      </div>
+
+      <div class="streak-container">
+        <span id="streak">Streak: 0</span>
+      </div>
+    </div>
+  </body>
+</html>
